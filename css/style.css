@@ -1,0 +1,842 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1e90ff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #FF8C00;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+.jumia-logo{
+    width: 50%;
+    height: 30%;
+    margin-left: 2em;
+}
+.search-bar{
+    width: 30rem;
+    align-items: center;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.se{
+    border: 1px solid white;
+    background-color: orange;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.list{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    font-size: 3vmin;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.count{
+    color: black;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.logis{
+    text-align: center;
+    margin-top: 2em;
+    
+}
+.others{
+    margin-left: 2em;
+    background-color: white;
+    font-size: 2vmin;
+    border: 2px solid white;
+    width: 150px;
+}
+.aside{
+    margin-right: 2em;
+}
+.oth{
+    color: black;
+}
+.img{
+   max-width: 100%;
+   height: auto;
+}
+.prime{
+    margin-top: 1em;
+}
+.free{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+.free-delivery{
+    border: 1px solid white;
+    margin: 8px;
+    padding: 8px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+.stores{
+    border: 1px solid white;
+    margin: 8px;
+    padding: 8px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+.borrow{
+    border: 1px solid white;
+    margin: 8px;
+    padding: 8px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+.food{
+    border: 1px solid white;
+    margin: 8px;
+    padding: 8px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+.ood{
+    color: black;
+    font-weight: bold;
+}
+.offers{
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+.miss-out{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+.th{
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+}
+.flash{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+.top{
+    background-color: white;
+}
+ .del{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+ }
+ .de{
+     width: 130px;
+     margin-left: 2.5em;
+ }
+ .vaseline{
+     border: 2px solid whitesmoke;
+ }
+ .line{
+     margin-right: 4em;
+     margin-top: 1em;
+ }
+ .ase{
+     text-align: center;
+     color: black;
+ }
+ .vase{
+     text-align: center;
+     color: black;
+     font-size: 2.5vmin;
+ }
+ .vase-mon{
+     text-align: center;
+     color: black;
+ }
+ .see{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: white;
+     border: 2px solid white;
+     background-color: lightskyblue;
+ }
+ .all{
+     font-size: 15px;
+     color: black;
+     margin-right: 1em;
+ }
+ .free-head{
+     margin-left: 1em;
+ }
+ .shop{
+     border: 1px solid white;
+     align-items: center;
+     text-align: center;
+     background-color: white;
+     margin-top: 2em;
+ }
+ .ct{
+     border: 2px solid white;
+     background-color: lightskyblue;
+ }
+ .now{
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: .5em;
+ }
+ .fr{
+     width: 12em;
+ }
+ .styles{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .fee{
+     text-align: center;
+     color: black;
+ }
+ .budget-sec{
+     border: 1px solid white;
+     background-color: white;
+     margin-top: 5em;
+     text-align: center;
+ }
+ .budget-store{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 1em;
+ }
+ .st{
+     border: 2px solid white;
+     background-color: red;
+     color: white;
+ }
+ .the-section{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+ }
+ .see-all{
+     font-weight: bold;
+     color: black;
+     margin-right: 1em;
+ }
+ .the-head{
+     margin-left: 1em;
+ }
+ .del-deals{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 2px solid white;
+     background-color: skyblue;
+ }
+ .budget-con{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .eag{
+     width: 8em;
+     margin-left: 2em;
+     margin-top: 1em;
+ }
+ .eaget{
+     border: 2px solid whitesmoke;
+     width: 180px;
+     margin-bottom: 2em;
+     margin-top: .5em;
+ }
+ .pen{
+     text-align: center;
+     color: black;
+ }
+ .pen-mon{
+     text-align: center;
+     color: black;
+ }
+ .el{
+     color: black;
+ }
+ .home-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+     text-align: center;
+ }
+ .makeover{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 1em;
+ }
+ .ome{
+     border: 2px solid white;
+     background-color: red;
+     color: white;
+ }
+ .makeover-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+ }
+ .make-head{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 2px solid white;
+     background-color: skyblue;
+ }
+ .make-see{
+     margin-right: 1em;
+     color: black;
+     font-size: 13px;
+     font-weight: bold;
+ }
+ .makeover-head{
+     margin-left: 1em;
+ }
+ .home-deal{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .pin{
+     width: 10em;
+     margin-left: 1.3em;
+     margin-top: 1em;
+ }
+ .itel{
+     border: 2px solid whitesmoke;
+     width: 200px;
+     margin-bottom: 2em;
+     margin-top: 1em;
+ }
+ .yam{
+     text-align: center;
+     color: black;
+ }
+ .mon{
+  text-align: center;
+  color: black;   
+ }
+ .super-con{
+     display: flex;
+     justify-content: space-around;
+     margin-top: .5em;
+ }
+ .su{
+     border: 2px solid white;
+     background-color: red;
+     color: white;
+ }
+ .gro-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+     text-align: center;
+ }
+ .top-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+     text-align: center;
+ }
+ .cat-con{
+     display: flex;
+     justify-content: space-around;
+ }
+ .to{
+     border: 2px solid white;
+     background-color: skyblue;
+ }
+ .cat{
+     width: 10em;
+     margin-top: 1em;
+ }
+ .cup{
+     text-align: center;
+     color: black;
+ }
+ .vodka-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+ }
+ .pernod{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 2px solid white;
+     background-color: skyblue;
+ }
+ .vod-see{
+     color: black;
+     font-size: 14px;
+     font-weight: bold;
+     margin-right: 1em;
+ }
+ .vod-head{
+     margin-left: 1em;
+ }
+ .vodka{
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: .5em;
+ }
+ .vod{
+     width: 10em;
+ }
+ .se{
+     text-align: center;
+     color: black;
+ }
+ .fas-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+     text-align: center;
+ }
+ .bea{
+     display: flex;
+     justify-content: space-around;
+     margin-top: .5em;
+     margin-bottom: 1em;
+ }
+ .ty{
+     border: 2px solid white;
+     background-color: red;
+     color: white;
+ }
+ .men-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+ }
+ .men-fas{
+     display: flex;
+     justify-content: space-around;
+     margin-top: .5em;
+ }
+ .bea-fas{
+     display: flex;
+     justify-content: space-between;
+     border: 2px solid white;
+     background-color: skyblue;
+     align-items: center;
+ }
+ .bea-hand{
+     margin-left: 1em;
+ }
+ .bea-see{
+     margin-right: 1em;
+     color: black;
+     font-size: 14px;
+     font-weight: bold;
+ }
+ .shi{
+     width: 10em;
+     margin-top: 1em;
+     margin-left: 1.5em;
+ }
+ .shirt{
+     border: 2px solid whitesmoke;
+     width: 200px;
+     margin-bottom: 2em;
+ }
+ .gadget-con{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+     text-align: center;
+ }
+ .gadget{
+     display: flex;
+     justify-content: space-around;
+     margin-top: .5em;
+     margin-bottom: 1em;
+ }
+ .la{
+     border: 2px solid white;
+     background-color: red;
+     color: white;
+ }
+ .free-d-c{
+     border: 1px solid white;
+     margin-top: 5em;
+     background-color: white;
+     text-align: center;
+ }
+ .ankle{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .ls{
+     border: 2px solid white;
+     background-color: skyblue;
+ }
+ .ank{
+     width: 10em;
+     margin-top: 1em;
+ }
+ .watt{
+     border: 2px solid whitesmoke;
+     width: 200px;
+     margin-top: .5em;
+     margin-bottom: 2em;
+ }
+ .force-sec{
+     border: 2px solid white;
+     background-color: white;
+     margin-top: 5em;
+ }
+ .force{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 2em;
+     margin-top: 2em;
+ }
+ .ju{
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 10em;
+ }
+ .em{
+     margin: 10px;
+     padding: 10px;
+     width: 25em;
+ }
+ .new{
+     text-align: center;
+ }
+ .ew{
+     font-weight: bold;
+     font-size: 1em;
+ }
+ .male{
+     border: 1px solid black;
+     background-color: black;
+     color: white;
+     margin: 5px;
+     padding: 5px;
+     width: 15em;
+ }
+ .female{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 15em;
+ }
+ .dow{
+     text-align: center;
+ }
+ .app-store{
+     display: flex;
+     justify-content: space-around;
+ }
+ .apple{
+     border: 1px solid white;
+     color: black;
+ }
+ .play{
+    border: 1px solid white;
+    color: black;
+ }
+ .wrap{
+    background-color: #555d50;
+    color: white;
+ }
+ .us{
+     display: flex;
+     justify-content: space-around;
+ }
+ .et{
+     font-weight: bold;
+     font-size: 1em;
+ }
+ .um{
+    font-weight: bold;
+    font-size: 1em;
+ }
+ .ey{
+    font-weight: bold;
+    font-size: 1em;
+ }
+ .ional{
+    font-weight: bold;
+    font-size: 1em;
+ }
+ 
+ .ivory{
+     display: grid;
+     grid-template-columns: auto auto;
+ }
+ .med{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 1em;
+ }
+ .social{
+     padding: 5px;
+ }
+ .ook{
+    font-weight: bold;
+    font-size: 1em;
+ }
+.ym{
+    font-weight: bold;
+     font-size: 1em;
+}
+
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.aside-con{
+    border: 2px solid black;
+    background-color: white;
+}
+.main-con{
+    border: 2px solid white;
+}
+.hop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.x{
+    border: 2px solid whitesmoke;
+}
+.pple{
+    display: flex;
+    justify-content: space-evenly;
+}
+.app{
+ width: 200px;
+ height: 200px;
+}
+.in{
+    text-align: center;
+}
+.mo{
+    text-align: center;
+}
+.phone{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+.cart{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.add{
+    border: 2px solid white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+
+
+.as-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ne{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.ve{
+    border: 2px solid whitesmoke;
+    margin-left: 5em;
+    width: 70%;
+    border-radius: 10px;
+}
+.ide{
+    text-align: center;
+}
+.tx{
+    margin-top: 1em;
+}
+.o{
+    margin-left: .5em;
+    background-color: #ffb6c1;
+    color: black;
+}
+
+.a{
+    font-size: 2vmin;
+}
+.spp{
+    font-size: 2vmin;
+}
+.art{
+    border: 1px solid whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+.ot{
+    text-align: center;
+}
+
+
+.t{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+.art-div{
+   border: 2px solid white;
+   width: 550px;
+   background-color: white;
+}
+.rt-div{
+    display: flex;
+    justify-content: space-around;
+}
+.rt-ph{
+    width: 60px;
+    margin-left: -2em;
+}
+.pro{
+    font-size: .8em;
+    margin-left:-5em ;
+}
+.ove{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.re{
+    font-size: .7em;
+    margin-left: 1.5em;
+    color: orange;
+}
+.pan{
+    margin-right: 2em;
+}
+.sp{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+.pa{
+    margin-right: 2em;
+    border: 1px solid white;
+    background-color: lightgoldenrodyellow;
+    margin: 1px;
+    padding: 1px;
+    width: 15px;
+    color: black;
+    text-align: center;
+}
+.ap{
+    margin-left: 1em;
+    border: 1px solid white;
+    background-color: orange;
+    margin: 1px;
+    padding: 1px;
+    width: 15px;
+    color: black;
+    text-align: center;
+}
+.lete{
+    border: 2px solid whitesmoke;
+    margin: 5px;
+    padding: 5px;
+}
+.atr{
+    font-weight: bold;
+}
+.mm{
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+}
+.ub{
+    display: flex;
+    justify-content: space-around;
+    font-size: .8em;
+}
+.uo{
+    border: 1px solid whitesmoke;
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: orange;  
+}
+.tuo{
+    color: white;
+}
+.am{
+    font-size: .8em;
+}
+.imo{
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 5em;
+}
+.imo-con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mg{
+    width: 200px;
+}
+.er{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sll{
+    color: orange;
+    margin-right: 1.5em;
+}
+.moi{
+   border: 2px solid whitesmoke;
+   border-radius: 10px;
+}
+.om{
+    text-align: center;
+}
+.om-mon{
+    text-align: center;
+}
+.od{
+    background-color: white;
+}
